@@ -11,6 +11,7 @@
         This is a Java implementation of Monte Carlo Tree Search methods.
         It is self-contained, domain-independent and can thus easily be used in any state-action domain.
     </description>
+    <url>https://github.com/oomushi/mcts</url>
     <licenses>
         <license>
             <name>The MIT License</name>
