@@ -4,30 +4,76 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.nejc92</groupId>
+    <groupId>io.github.oomushi</groupId>
     <artifactId>mcts</artifactId>
     <version>1.0</version>
-
-    <name>Monte Carlo Tree Search methods</name>
-    <url>https://github.com/nejc92/mcts</url>
-
+    <description>
+        This is a Java implementation of Monte Carlo Tree Search methods.
+        It is self-contained, domain-independent and can thus easily be used in any state-action domain.
+    </description>
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://raw.githubusercontent.com/ConvertAPI/convertapi-java/master/LICENSE.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>sadjehwty</id>
+            <name>Davide Rizzi</name>
+            <organization>Oomushi</organization>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/oomushi/mcts.git</connection>
+        <developerConnection>scm:git:git://github.com/github.com/oomushi/mcts.git</developerConnection>
+        <url>https://github.com/oomushi/mcts</url>
+        <tag>HEAD</tag>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>uk.com.robust-it</groupId>
+            <groupId>io.github.kostaskougios</groupId>
             <artifactId>cloning</artifactId>
-            <version>1.9.2</version>
+            <version>1.12.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.7.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>central</publishingServerId>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -44,8 +90,8 @@
     </build>
 
      <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
 </project>
