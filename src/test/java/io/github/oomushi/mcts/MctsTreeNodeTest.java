@@ -1,8 +1,8 @@
-package io.github.nejc92.mcts;
+package io.github.oomushi.mcts;
 
 import com.rits.cloning.Cloner;
-import io.github.nejc92.mcts.examples.StaticState;
-import io.github.nejc92.mcts.examples.TicTacToePlayer;
+import io.github.oomushi.mcts.examples.StaticState;
+import io.github.oomushi.mcts.examples.TicTacToePlayer;
 import org.junit.Before;
 import org.junit.Test;
 

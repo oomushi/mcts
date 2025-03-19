@@ -1,6 +1,6 @@
-package io.github.nejc92.mcts.examples;
+package io.github.oomushi.mcts.examples;
 
-import io.github.nejc92.mcts.MctsDomainState;
+import io.github.oomushi.mcts.MctsDomainState;
 
 import java.util.ArrayList;
 import java.util.Arrays;

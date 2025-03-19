@@ -1,7 +1,7 @@
-package io.github.nejc92.mcts;
+package io.github.oomushi.mcts;
 
-import io.github.nejc92.mcts.examples.TicTacToePlayer;
-import io.github.nejc92.mcts.examples.TicTacToeState;
+import io.github.oomushi.mcts.examples.TicTacToePlayer;
+import io.github.oomushi.mcts.examples.TicTacToeState;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

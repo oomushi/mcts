@@ -1,4 +1,4 @@
-package io.github.nejc92.mcts.examples;
+package io.github.oomushi.mcts.examples;
 
 import org.junit.Before;
 import org.junit.Test;

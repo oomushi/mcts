@@ -1,6 +1,6 @@
-package io.github.nejc92.mcts.examples;
+package io.github.oomushi.mcts.examples;
 
-import io.github.nejc92.mcts.MctsDomainAgent;
+import io.github.oomushi.mcts.MctsDomainAgent;
 
 import java.util.Collections;
 import java.util.List;

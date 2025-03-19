@@ -1,4 +1,4 @@
-package io.github.nejc92.mcts;
+package io.github.oomushi.mcts;
 
 import java.util.List;
 
