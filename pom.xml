@@ -6,7 +6,7 @@
     <name>Montecarlo Tree Search</name>
     <groupId>io.github.oomushi</groupId>
     <artifactId>mcts</artifactId>
-    <version>17.0.0</version>
+    <version>8.0.0</version>
     <description>
         This is a Java implementation of Monte Carlo Tree Search methods.
         It is self-contained, domain-independent and can thus easily be used in any state-action domain.
@@ -47,7 +47,7 @@
         <dependency>
             <groupId>io.github.kostaskougios</groupId>
             <artifactId>cloning</artifactId>
-            <version>1.12.0</version>
+            <version>1.10.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
@@ -124,8 +124,8 @@
     </build>
 
      <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
 </project>
