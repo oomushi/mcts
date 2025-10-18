@@ -6,7 +6,7 @@
     <name>Montecarlo Tree Search</name>
     <groupId>io.github.oomushi</groupId>
     <artifactId>mcts</artifactId>
-    <version>1.0.1</version>
+    <version>17.0.0</version>
     <description>
         This is a Java implementation of Monte Carlo Tree Search methods.
         It is self-contained, domain-independent and can thus easily be used in any state-action domain.
